@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- SEO META TAGS -->
+    <title>DroidVault | Official Premium Mod APK Store</title>
+    <meta name="description" content="Download 100+ Premium Mod APKs like PayPal, Spotify, and Games with direct download links. Safe and updated for 2024.">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Google+Sans:wght@400;500;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    
+    <style>
+        :root {
+            --play-green: #01875f;
+            --text-dark: #202124;
+            --text-gray: #5f6368;
+            --border: #dadce0;
+            --bg-light: #ffffff;
+        }
+
+        * { box-sizing: border-box; -webkit-font-smoothing: antialiased; }
+        body { font-family: 'Roboto', sans-serif; background: var(--bg-light); color: var(--text-dark); margin: 0; padding: 0; }
+
+        /* HEADER */
+        header {
+            background: #fff;
+            padding: 10px 5%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            border-bottom: 1px solid var(--border);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+        .logo { font-family: 'Google Sans', sans-serif; font-size: 20px; font-weight: 700; color: var(--play-green); text-decoration: none; }
+        .logo span { color: #4285f4; }
+
+        .search-area { flex: 1; max-width: 400px; margin-left: 15px; }
+        #searchInput {
+            width: 100%;
+            padding: 10px 15px;
+            border-radius: 8px;
+            border: 1px solid var(--border);
+            background: #f1f3f4;
+            outline: none;
+            font-size: 14px;
+        }
+
+        /* ADS SPACE STYLING */
+        .ad-slot {
+            width: 100%;
+            margin: 15px auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+        }
+        .top-ad { max-width: 468px; height: 60px; }
+        .bottom-ad { max-width: 970px; min-height: 100px; }
+
+        /* MAIN CONTAINER */
+        .container { max-width: 1200px; margin: 0 auto; padding: 0 10px; }
+
+        .category-section { margin-bottom: 35px; }
+        .category-title { 
+            font-family: 'Google Sans', sans-serif; 
+            font-size: 18px; 
+            font-weight: 500; 
+            margin-bottom: 15px; 
+            border-left: 4px solid var(--play-green);
+            padding-left: 10px;
+        }
+
+        /* 4-COLUMN GRID */
+        .app-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 15px 10px;
+        }
+
+        .app-card {
+            text-decoration: none;
+            color: inherit;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+
+        .icon-box {
+            width: 100%;
+            aspect-ratio: 1/1;
+            max-width: 80px; 
+            background: #fff;
+            border-radius: 18px;
+            border: 1px solid var(--border);
+            overflow: hidden;
+            margin-bottom: 6px;
+        }
+        .icon-box img { width: 100%; height: 100%; object-fit: cover; }
+
+        .app-name { 
+            font-size: 11px; 
+            font-weight: 500; 
+            margin: 0; 
+            width: 100%;
+            white-space: nowrap; 
+            overflow: hidden; 
+            text-overflow: ellipsis; 
+        }
+        .app-mod { font-size: 9px; color: var(--play-green); font-weight: 700; text-transform: uppercase; }
+
+        footer { text-align: center; padding: 40px 20px; font-size: 12px; color: var(--text-gray); border-top: 1px solid var(--border); margin-top: 20px;}
+
+        @media (max-width: 480px) {
+            .icon-box { max-width: 65px; }
+            .app-name { font-size: 10px; }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <a href="#" class="logo">Droid<span>Vault</span></a>
+    <div class="search-area">
+        <input type="text" id="searchInput" onkeyup="searchApps()" placeholder="Search apps...">
+    </div>
+</header>
+
+<!-- TOP AD: Banner 468x60 -->
+<div class="ad-slot top-ad">
+    <script type="text/javascript">
+        atOptions = {
+            'key' : '6ab02e9615ad5d25ef89757ab899b41a',
+            'format' : 'iframe',
+            'height' : 60,
+            'width' : 468,
+            'params' : {}
+        };
+    </script>
+    <script type="text/javascript" src="//www.highperformanceformat.com/6ab02e9615ad5d25ef89757ab899b41a/invoke.js"></script>
+</div>
+
+<div class="container" id="mainContainer">
+    <!-- Content Categories load here -->
+</div>
+
+<!-- BOTTOM AD: Native Banner -->
+<div class="ad-slot bottom-ad">
+    <script async="async" data-cfasync="false" src="https://pl29466333.effectivecpmnetwork.com/216fc79d5d0f87d203e5418dafe85f4f/invoke.js"></script>
+    <div id="container-216fc79d5d0f87d203e5418dafe85f4f"></div>
+</div>
+
+<footer>
+    <p>&copy; 2024 DroidVault Official Store | All Premium Mods Unlocked</p>
+</footer>
+
+<!-- JS FOR APPS DATA -->
+<script>
+    const appData = [
+        { name: "PayPal", cat: "Finance", dom: "paypal.com", mod: "Premium", link: "#" },
+        { name: "Binance", cat: "Finance", dom: "binance.com", mod: "Crypto Trading", link: "#" },
+        { name: "WhatsApp GB", cat: "Social", dom: "whatsapp.com", mod: "Privacy", link: "#" },
+        { name: "Instagram Pro", cat: "Social", dom: "instagram.com", mod: "Premium", link: "#" },
+        { name: "TikTok Mod", cat: "Social", dom: "tiktok.com", mod: "No WM", link: "#" },
+        { name: "Netflix Mod", cat: "Streaming", dom: "netflix.com", mod: "4K", link: "#" },
+        { name: "Spotify", cat: "Streaming", dom: "spotify.com", mod: "No Ads", link: "#" },
+        { name: "Minecraft", cat: "Games", dom: "minecraft.net", mod: "Full", link: "#" },
+        { name: "Free Fire Mod", cat: "Games", dom: "ff.garena.com", mod: "Menu", link: "#" },
+        { name: "PUBG Mobile", cat: "Games", dom: "pubgmobile.com", mod: "UC Mod", link: "#" },
+        { name: "CapCut Pro", cat: "Editor", dom: "capcut.com", mod: "Full", link: "#" },
+        { name: "Kinemaster", cat: "Editor", dom: "kinemaster.com", mod: "No WM", link: "#" },
+        { name: "Canva Pro", cat: "Editor", dom: "canva.com", mod: "Premium", link: "#" }
+    ];
+
+    // Generating more to fill the store
+    const extras = ["Zoom", "Telegram", "Facebook", "Snapchat", "Discord", "Paytm", "GPay", "Roblox", "Subway Surfers", "8 Ball Pool", "Clash of Clans", "Candy Crush", "Duolingo", "MX Player", "PicsArt", "Remini", "WPS Office", "ZArchiver", "Truecaller", "NordVPN", "ChatGPT", "Tinder", "LinkedIn"];
+    extras.forEach((n, i) => {
+        appData.push({
+            name: n,
+            cat: (i < 5 ? "Social" : i < 15 ? "Games" : "Tools"),
+            dom: n.toLowerCase().replace(/\s/g, '') + ".com",
+            mod: "Pro Unlocked",
+            link: "#"
+        });
+    });
+
+    const mainContainer = document.getElementById('mainContainer');
+
+    function renderStore(data) {
+        mainContainer.innerHTML = "";
+        const order = ["Social", "Games", "Finance", "Streaming", "Editor", "Tools"];
+
+        order.forEach(cat => {
+            const catApps = data.filter(a => a.cat === cat);
+            if (catApps.length > 0) {
+                const section = document.createElement('div');
+                section.className = 'category-section';
+                section.innerHTML = `
+                    <div class="category-title"><span>${cat} Apps</span></div>
+                    <div class="app-grid">
+                        ${catApps.map(app => `
+                            <a href="${app.link}" class="app-card">
+                                <div class="icon-box">
+                                    <img src="https://www.google.com/s2/favicons?sz=128&domain=${app.dom}" alt="${app.name}">
+                                </div>
+                                <p class="app-name">${app.name}</p>
+                                <span class="app-mod">${app.mod}</span>
+                            </a>
+                        `).join('')}
+                    </div>
+                `;
+                mainContainer.appendChild(section);
+            }
+        });
+    }
+
+    renderStore(appData);
+
+    function searchApps() {
+        const q = document.getElementById('searchInput').value.toLowerCase();
+        renderStore(appData.filter(a => a.name.toLowerCase().includes(q)));
+    }
+</script>
+
+<!-- SOCIAL BAR AD: Bottom Floating -->
+<script src="https://pl29466318.effectivecpmnetwork.com/62/4f/93/624f93ba17fb29c03870b9f3dd2c3ea3.js"></script>
+
+</body>
+</html>
